@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 export default function MainContent() {
   return (
+    
     <div className="App-Container">
       <h1>Fun facts about React</h1>
       <ul>

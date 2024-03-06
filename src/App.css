@@ -1,10 +1,17 @@
-.App {
-  text-align: center;
+* {
+  background-color: #282c34;
+  box-sizing: border-box;
+}
+.App{
+  background-image: url(../public/react-large-backgroung.png);
+  background-repeat: no-repeat;
 }
 
 .App-logo {
-  height: 40vmin;
+  margin: 12px ;
+  height: 10vmin;
   pointer-events: none;
+  background-color: #21222A;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,18 +19,43 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-head{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: #61dafb;
+  background-color: #21222A;
+
+}
+.App-Navbar{
+  font-size:20px;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10px;
+  height: 100px;
+  background-color: #21222A;
+}
+.App-Navbar h3{
+  background-color: #21222A;
+}
+.App-head h2{
+  padding-left:10px;
+  background-color: #21222A;
 }
 
+.App-Container{
+  color: white;
+  padding:20px ;
+  letter-spacing: -0.005rem;
+}
+.App-Container ul li{
+  line-height: 15px;
+  padding: 15px;
+}
+.App-Container ul li::marker{
+  color: #61dafb;
+  font-size: 1.6rem;
+}
 .App-link {
   color: #61dafb;
 }
